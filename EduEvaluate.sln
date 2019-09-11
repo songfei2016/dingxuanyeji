@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduEvaluate.Data", "EduEvaluate.Data\EduEvaluate.Data.csproj", "{10D3754A-0D10-439E-890D-AFB61A39C91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduEvaluate.Kernel", "EduEvaluate.Kernel\EduEvaluate.Kernel.csproj", "{2B5C3D5E-34CC-4DE3-93D8-51A3DECF7F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduEvaluate.Controllers", "EduEvaluate.Controllers\EduEvaluate.Controllers.csproj", "{F6269488-3807-4910-A927-DEB66EE9D409}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EduEvaluate.Web", "EduEvaluate.Web\", "{716EF28B-2583-4A9A-8C92-1D530AA6EC42}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{2b5c3d5e-34cc-4de3-93d8-51a3decf7f24}|EduEvaluate.Kernel.dll;{f6269488-3807-4910-a927-deb66ee9d409}|EduEvaluate.Controllers.dll;{10D3754A-0D10-439E-890D-AFB61A39C91B}|EduEvaluate.Data.dll;{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}|ST.TeachSms.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54566"
+		Debug.AspNetCompiler.PhysicalPath = "EduEvaluate.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54566\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54566"
+		Release.AspNetCompiler.PhysicalPath = "EduEvaluate.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54566\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54566"
+		SlnRelativePath = "EduEvaluate.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduEvaluate.Tests", "EduEvaluate.Tests\EduEvaluate.Tests.csproj", "{68369F3B-2CBA-4A3F-9129-E01731873515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST.TeachSms", "St.TeachSms\ST.TeachSms.csproj", "{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D3754A-0D10-439E-890D-AFB61A39C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D3754A-0D10-439E-890D-AFB61A39C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D3754A-0D10-439E-890D-AFB61A39C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D3754A-0D10-439E-890D-AFB61A39C91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5C3D5E-34CC-4DE3-93D8-51A3DECF7F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5C3D5E-34CC-4DE3-93D8-51A3DECF7F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5C3D5E-34CC-4DE3-93D8-51A3DECF7F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5C3D5E-34CC-4DE3-93D8-51A3DECF7F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6269488-3807-4910-A927-DEB66EE9D409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6269488-3807-4910-A927-DEB66EE9D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6269488-3807-4910-A927-DEB66EE9D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6269488-3807-4910-A927-DEB66EE9D409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716EF28B-2583-4A9A-8C92-1D530AA6EC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716EF28B-2583-4A9A-8C92-1D530AA6EC42}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{68369F3B-2CBA-4A3F-9129-E01731873515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68369F3B-2CBA-4A3F-9129-E01731873515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68369F3B-2CBA-4A3F-9129-E01731873515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68369F3B-2CBA-4A3F-9129-E01731873515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CBDB1D-C5FE-42C2-8AF2-385C3AF12812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D40B061-CF80-48E8-A88F-14B0F86F5075}
+	EndGlobalSection
+EndGlobal
